@@ -1,0 +1,64 @@
+<nav class="uk-navbar uk-navbar-container">
+  <div class="uk-navbar-left uk-margin-left">
+    <a href="#offcanvas-usage" uk-toggle class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon></a>
+    <a routerLink="home" class="uk-logo uk-visible@m"><img src="../../assets/svg/logocenter.svg" uk-svg /></a>
+  </div>
+  <div class="uk-navbar-center">
+    <a routerLink="home" class="uk-logo uk-hidden@m"><img src="../../assets/svg/logocenter.svg" uk-svg /></a>
+    <ul class="uk-navbar-nav uk-visible@m">
+      <li>
+        <a routerLink="home">Home</a>
+      </li>
+      <li>
+        <a routerLink="about">About</a>
+      </li>
+      <li>
+        <a routerLink="listings">Listings</a>
+      </li>
+      <li>
+        <a routerLink="blog">Blog</a>
+      </li>
+      <li>
+        <a routerLink="contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-margin-right">
+      <li>
+        <a href="tel:7027770010" uk-icon="icon: receiver"></a>
+      </li>
+    </ul>
+  </div>
+  <div id="offcanvas-usage" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+      <div class="uk-position-center">
+        <img src="../../assets/svg/logocenter.svg" uk-svg />
+        <ul class="uk-nav uk-margin-top uk-margin-bottom">
+          <li>
+            <a routerLink="home">Home</a>
+          </li>
+          <li>
+            <a routerLink="about">About</a>
+          </li>
+          <li>
+            <a routerLink="listings">Listings</a>
+          </li>
+          <li>
+            <a routerLink="blog">Blog</a>
+          </li>
+          <li>
+            <a routerLink="contact">Contact</a>
+          </li>
+        </ul>
+        <hr />
+        <div class="social">
+          <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+          <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+          <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
