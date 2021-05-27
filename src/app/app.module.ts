@@ -15,6 +15,11 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormComponent } from './components/form/form.component';
 import { LeadcapComponent } from './components/leadcap/leadcap.component';
+import { AgentsComponent } from './pages/agents/agents.component';
+import { AgentComponent } from './pages/agent/agent.component';
+import { AffiliatesComponent } from './pages/affiliates/affiliates.component';
+import { AffiliateListingComponent } from './pages/affiliate-listing/affiliate-listing.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 
 @NgModule({
@@ -31,7 +36,12 @@ import { LeadcapComponent } from './components/leadcap/leadcap.component';
     NavbarComponent,
     FooterComponent,
     FormComponent,
-    LeadcapComponent
+    LeadcapComponent,
+    AgentsComponent,
+    AgentComponent,
+    AffiliatesComponent,
+    AffiliateListingComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
